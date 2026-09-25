@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">Dudle19 — diseño, código y automatización</title>
+  <desc id="desc">Portada oscura con tipografía blanca, acentos cian y un diagrama geométrico de sistemas conectados.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0A0A0C"/>
+      <stop offset="1" stop-color="#101820"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#7C3AED"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#A8B6C9" stroke-opacity=".08"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" fill="url(#bg)"/>
+  <rect width="1200" height="420" fill="url(#grid)"/>
+  <path d="M0 0h1200v4H0z" fill="url(#line)"/>
+  <circle cx="1030" cy="204" r="220" fill="#22D3EE" opacity=".035"/>
+  <circle cx="1030" cy="204" r="150" fill="none" stroke="#22D3EE" stroke-opacity=".15"/>
+  <circle cx="1030" cy="204" r="95" fill="none" stroke="#22D3EE" stroke-opacity=".2"/>
+
+  <g fill="none" stroke="url(#line)" stroke-width="2">
+    <path d="M842 98 1028 206 1123 112"/>
+    <path d="M842 314 1028 206 1123 312"/>
+    <path d="M842 98v216M1123 112v200" opacity=".55"/>
+  </g>
+  <g fill="#101820" stroke="#22D3EE" stroke-width="3">
+    <circle cx="842" cy="98" r="10"/>
+    <circle cx="842" cy="314" r="10"/>
+    <circle cx="1028" cy="206" r="17"/>
+    <circle cx="1123" cy="112" r="10"/>
+    <circle cx="1123" cy="312" r="10"/>
+  </g>
+  <g fill="#A7B6C4" font-family="Arial, Helvetica, sans-serif" font-size="12" font-weight="700" letter-spacing="2">
+    <text x="819" y="74">IDEA</text>
+    <text x="795" y="351">DESIGN</text>
+    <text x="992" y="254">SYSTEM</text>
+    <text x="1087" y="87">CODE</text>
+    <text x="1055" y="350">AUTOMATION</text>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="66" y="72" fill="#22D3EE" font-size="14" font-weight="700" letter-spacing="4">D19 / DIGITAL SYSTEMS</text>
+    <text x="60" y="210" fill="#F8FAFC" font-size="112" font-weight="900" letter-spacing="-8">Dudle<tspan fill="#22D3EE">19</tspan></text>
+    <text x="66" y="269" fill="#CBD5E1" font-size="27" font-weight="600" letter-spacing=".2">Diseño. Código. Automatización.</text>
+    <path d="M66 305h510" stroke="#A8B6C9" stroke-opacity=".25"/>
+    <text x="66" y="342" fill="#94A3B8" font-size="15" font-weight="700" letter-spacing="2">PRODUCT DESIGN  /  WEB APPS  /  AI WORKFLOWS</text>
+  </g>
+</svg>
